@@ -1,7 +1,7 @@
 var obstacles = [];
 
 function setup() {
-    createCanvas(920, 480);
+    createCanvas(1000, 600);
 }
 
 function draw() {

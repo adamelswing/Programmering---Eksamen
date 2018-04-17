@@ -1,9 +1,14 @@
 var state = 1;
 
+function preload()
+{
+    asteroidImage = loadImage("assets/asteroid.png");
+}
+
 function setup()
 {
     createCanvas(1000, 600);
-    setupAsteroids();
+    asteroids = new Group();
 }
 
 function draw()

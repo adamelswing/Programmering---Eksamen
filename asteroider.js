@@ -1,3 +1,8 @@
+function preload()
+{
+    asteroidImage = loadImage("assets/asteroid.png");
+}
+
 function drawAsteroids()
 {
     if(clickCount % 120 == 0)
